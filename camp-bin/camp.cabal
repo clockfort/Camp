@@ -1,0 +1,56 @@
+Name: camp
+Version: 0.1
+License: BSD3
+License-File: LICENSE
+Copyright: 2008 Ian Lynagh <igloo@earth.li>
+Author: Ian Lynagh <igloo@earth.li>
+Maintainer: Ian Lynagh <igloo@earth.li>
+Synopsis: Camp
+Description:
+        Camp (Commute And Merge Patches)
+Category: Development
+Build-Type: Simple
+Cabal-Version: >=1.2
+
+Flag have_extensible_exceptions
+    Description: Do we have the extensible-exceptions package?
+
+Executable camp
+    Main-Is: Camp/Main.hs
+    Other-Modules:
+        Camp.Command.Add
+        Camp.Command.Get
+        Camp.Command.Init
+        Camp.Command.Inventory
+        Camp.Command.Pull
+        Camp.Command.Record
+        Camp.Die
+    Hs-Source-Dirs: .
+
+    Ghc-Options: -Wall -fwarn-tabs -Werror -O2
+
+    Build-Depends: base, bytestring, camp-core, camp-network, camp-repository,
+                   containers, directory, filepath, old-time
+
+    Extensions: CPP, ForeignFunctionInterface, ScopedTypeVariables,
+                EmptyDataDecls, Rank2Types, FlexibleContexts, GADTs
+
+    if impl(ghc < 6.9)
+        Extensions: PatternSignatures
+
+    if os(windows)
+        Cpp-Options: -DWINDOWS
+
+    -- This is a hack to avoid needing to install the extensible-exceptions
+    -- package when building with the GHC HEAD. The in-tree sources are from
+    -- extensible-exceptions 0.1.1.0
+    if flag(have_extensible_exceptions)
+        Build-Depends: extensible-exceptions
+    else
+        Hs-Source-Dirs: packages/extensible-exceptions
+        Other-Modules:
+            Control.Exception.Extensible
+        if impl(ghc >= 6.9)
+            cpp-options: -DUSE_NEW_EXCEPTIONS
+            build-depends: base >= 4
+

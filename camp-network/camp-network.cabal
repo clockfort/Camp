@@ -1,0 +1,33 @@
+Name: camp-network
+Version: 0.1
+License: BSD3
+License-File: LICENSE
+Copyright: 2008 Ian Lynagh <igloo@earth.li>
+Author: Ian Lynagh <igloo@earth.li>
+Maintainer: Ian Lynagh <igloo@earth.li>
+Synopsis: Camp
+Description:
+        Camp (Commute And Merge Patches)
+Category: Development
+Build-Type: Simple
+Cabal-Version: >=1.2
+
+Library
+    Exposed-Modules:
+        Camp.Network
+    Other-Modules:
+        Camp.Curl
+    C-Sources: cbits/curl.c
+
+    Extensions: ForeignFunctionInterface, EmptyDataDecls
+    Ghc-Options: -Wall -fwarn-tabs -Werror -O2
+
+    Build-Depends: base, bytestring, camp-core, filepath
+
+    -- Strictly speaking we don't need libcurl >= 7.19.1, but we do need
+    -- it if we want to be able to download partial files over SFTP:
+    --     Fixed in 7.19.1 - November 5 2008
+    --     Bugfixes:
+    --     * CURLOPT_RANGE now works for SFTP downloads
+    Pkgconfig-Depends: libcurl >= 7.19.1
+

@@ -1,0 +1,62 @@
+Name: camp-repository
+Version: 0.1
+License: BSD3
+License-File: LICENSE
+Copyright: 2008 Ian Lynagh <igloo@earth.li>
+Author: Ian Lynagh <igloo@earth.li>
+Maintainer: Ian Lynagh <igloo@earth.li>
+Synopsis: Camp
+Description:
+        Camp (Commute And Merge Patches)
+Category: Development
+Build-Type: Simple
+Cabal-Version: >=1.2
+
+Flag have_lcs
+    Description: Do we have the lcs package?
+
+Flag have_extensible_exceptions
+    Description: Do we have the extensible-exceptions package?
+
+Library
+    Exposed-Modules:
+        Camp.Diff
+        Camp.Inventory
+        Camp.Logging
+        Camp.Messages
+        Camp.Options
+        Camp.Record
+        Camp.Repository
+    Hs-Source-Dirs: .
+
+    Ghc-Options: -Wall -fwarn-tabs -Werror -O2
+
+    Build-Depends: base, bytestring, camp-core, camp-network,
+                   directory, filepath, old-time
+    Extensions: CPP, ScopedTypeVariables, GADTs, BangPatterns
+
+    -- This is a hack to avoid needing to install the lcs package
+    -- when building with the GHC HEAD. The in-tree sources are from
+    -- lcs 0.2
+    if flag(have_lcs)
+        Build-Depends: lcs
+    else
+        Hs-Source-Dirs: packages/lcs
+        Build-Depends: array
+        Other-Modules:
+            Data.List.LCS
+            Data.List.LCS.HuntSzymanski
+
+    -- This is a hack to avoid needing to install the extensible-exceptions
+    -- package when building with the GHC HEAD. The in-tree sources are from
+    -- extensible-exceptions 0.1.1.0
+    if flag(have_extensible_exceptions)
+        Build-Depends: extensible-exceptions
+    else
+        Hs-Source-Dirs: packages/extensible-exceptions
+        Other-Modules:
+            Control.Exception.Extensible
+        if impl(ghc >= 6.9)
+            cpp-options: -DUSE_NEW_EXCEPTIONS
+            build-depends: base >= 4
+

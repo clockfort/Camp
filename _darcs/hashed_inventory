@@ -1,0 +1,752 @@
+pristine:0000000870-ecfe2bec2375ff2b56c2f5e052fe7646956dce778378da596039ee33ff258487
+[Initial commit. Doesn't do anything yet
+Ian Lynagh <igloo@earth.li>**20080831194536] 
+hash: 0000000855-d82a8df192fd3d323ccd376f7cc8ffc270fde53024e4b36d94812e7511be7d3a
+[Add some patch basics
+Ian Lynagh <igloo@earth.li>**20080831203749] 
+hash: 0000000963-10fd878993eb0f86d9253d6c0de72fb25de3c3fa3f5fe18638d6e7f7a7db440d
+[Add a .boring file
+Ian Lynagh <igloo@earth.li>**20080831231052] 
+hash: 0000000182-910000d59a61ab51c63caf0fa919a70dfa171efbd364ba0f631d65ae5ba086e5
+[Add some more patch code
+Ian Lynagh <igloo@earth.li>**20080831231105] 
+hash: 0000003590-e0d1b8ebd0d005972373dab373865af2716ed7054a6d916a92a7d69242a014e3
+[Add named patches and catches
+Ian Lynagh <igloo@earth.li>**20080831233158
+ (except named patches don't actually have names yet)
+] 
+hash: 0000002153-e31c1d8c14d83fb6dac98df75ac78146232f79b15dc3c06b43cf3a700f13fa71
+[Establish and enforce -Wall-cleanliness
+Ian Lynagh <igloo@earth.li>**20080831233608] 
+hash: 0000000851-7aaa47fec2c5471d437f6dc678e513aebc2b094c2656e02a303aaa5c404e73ea
+[Add actual Names
+Ian Lynagh <igloo@earth.li>**20080901093057] 
+hash: 0000000869-f244c4e4c0ee38adfbe3256eb38b1fb3c95c7be574772e927fc59e5db0926399
+[Add inverting
+Ian Lynagh <igloo@earth.li>**20080901101754] 
+hash: 0000002972-9325e5e53eb94c6c465035a37d6a3721c448843d3239c47e980387ed683b74f7
+[Add vim swap files to .boring
+Ian Lynagh <igloo@earth.li>**20080901103141] 
+hash: 0000000112-80e0339628cb1e9cfbe534804955faac4d616ac2ec4c107d58ab794cfdd386f1
+[Add merge (incomplete)
+Ian Lynagh <igloo@earth.li>**20080901103153] 
+hash: 0000000803-a64ec09cf1f8cb31302d8b2b0c9dd7ec3cf65b377c9c0fa1e1db795c297dfec5
+[Implement apply
+Ian Lynagh <igloo@earth.li>**20080901175330] 
+hash: 0000003720-3a6bcb31e39179cd1098764350fb4e7edad8a9daf94ad5377bcfc6649d88b723
+[Add Repository
+Ian Lynagh <igloo@earth.li>**20080901181419] 
+hash: 0000000410-dc6c54e5f74af51a4070657ac4f9a35df0be76e6b9daa2aaf677461dea7eb47b
+[Add an initialise command
+Ian Lynagh <igloo@earth.li>**20080901190147] 
+hash: 0000003688-ddf16f14bfe98b9841b05e08397b78a693180292ca47f8ad20735feff17e4567
+[Add in Show/Read instances; I'm not sure how nice this is yet
+Ian Lynagh <igloo@earth.li>**20080902005518] 
+hash: 0000005429-2a3fdce0f0715290420d479a9a850a60321c34e85c3dcfd0d8189414ee12c0a8
+[Silence an orphan warning that we can't get rid of
+Ian Lynagh <igloo@earth.li>**20080902005826] 
+hash: 0000000220-f4fb6a19642fac0b24824deb139a4086a832e3b467750531a9abfd86f09c52e6
+[Remove some now-unecessary import hacks
+Ian Lynagh <igloo@earth.li>**20080902010007] 
+hash: 0000000612-7f20f856e8ce601c8f95908fcb3bef5ff4a31cc8bb5dc86606e974d4bda6deb3
+[Make an "init test" command, which dump some patches in the repo too
+Ian Lynagh <igloo@earth.li>**20080902173055] 
+hash: 0000004717-9c81dd8946b08064589700fedde0dca3a02fb513cbb854d5e492ffe4b2c11372
+[Add pull command
+Ian Lynagh <igloo@earth.li>**20080902235246] 
+hash: 0000009937-13806b8d4b6ec66253f63ce5e46d0b201afbd8ca76ec56aa5b081d21fb08d264
+[Build in more test repo creation stuff
+Ian Lynagh <igloo@earth.li>**20080903005224] 
+hash: 0000007008-9527ff71b4c36480104a729351a9c9ce26cb84e11c729bcece323e5f8ebda14f
+[Stop named patches commuting with their inverse
+Ian Lynagh <igloo@earth.li>**20080903005739] 
+hash: 0000000434-b94600f9018339cf6eb159076e2b8ab141e2d1458aac708ea4a00cba476bb3e7
+[Apply the write patches to test repos
+Ian Lynagh <igloo@earth.li>**20080903012553] 
+hash: 0000000309-ed7821ada6040ccd211fdcba0d4acbacdd94e9f9cd02bd5518775ea94bda3283
+[Put a real Primitive commute definition in
+Ian Lynagh <igloo@earth.li>**20080903012644] 
+hash: 0000002079-58588dd13b3da8636f758a8815a143ac59a4c262fca6f1e8079431d0501fd21e
+[Give names Read instances consistent with their Show instances
+Ian Lynagh <igloo@earth.li>**20080903013554] 
+hash: 0000001494-aae38ac6273fcb68369bc1fdf41a90cbed0fdede0aa46f4abf455992916518ed
+[Remove a now-incorrect XXX
+Ian Lynagh <igloo@earth.li>**20080903013908] 
+hash: 0000000130-23b42b70366bfe01139a3d2859a1d5dd8c14607a68af584bb21c963931ec5072
+[Read fixes: Drop some whitespace when read'ing
+Ian Lynagh <igloo@earth.li>**20080903114414] 
+hash: 0000000477-82f67c7b441212e9d977d62124d522a03eb2997741829b390fc286bba2c30399
+[Actually apply patches that you pull
+Ian Lynagh <igloo@earth.li>**20080903114625] 
+hash: 0000000249-919fac28b6cc86f5dd709ea7e1f6e37655dd4f2be5e20b343e4f9e7685fcd24e
+[Implement catch merge
+Ian Lynagh <igloo@earth.li>**20080903162403] 
+hash: 0000007026-696b5c1cd5a5d7590171f3ba9935c2741ec68c747981850cbf08baefe65a1e71
+[Add head and stbale to .boring
+Ian Lynagh <igloo@earth.li>**20080903171917] 
+hash: 0000000115-c98e829fe85f4c891d36e5aa9c6f67410931f753d2ce0bc19010b6c4abd14265
+[Remove a hack
+Ian Lynagh <igloo@earth.li>**20080903172116] 
+hash: 0000001901-bffe63c2ec3528b9cc54ae075bd042f00ea8ffc354a2548083d6fa740073a76a
+[Fix building on GHC 6.8
+Ian Lynagh <igloo@earth.li>**20080903174153] 
+hash: 0000001586-ca49a253e9f46c8c4c8fc279675265d7e05e7f30121721339a4e8e367e58cde5
+[Add panic function and use it a bit
+Ian Lynagh <igloo@earth.li>**20080903183220] 
+hash: 0000001169-5bae3ceb0fb1dab22a34d15e2e37a5e69deb5c17be3bba7cd8e7591d177de375
+[Fix a hack
+Ian Lynagh <igloo@earth.li>**20080903184250] 
+hash: 0000001307-77c2ba7fec7a7d62cc78bc6ff4c72fcfa265a2481180d1edfd5e4b02c597c3ba
+[Fix another hack
+Ian Lynagh <igloo@earth.li>**20080903200152] 
+hash: 0000001020-95bf2838f83be8a717addf7ac6338c48dc3975a85b7107497f626acd7b1694d0
+[Fix catch inverting
+Ian Lynagh <igloo@earth.li>**20080903203726] 
+hash: 0000000656-a3958d95a3391920246a04ed05b5e06357be40d571f866a6f9bd41b3508a464c
+[Add another conflictor commute case
+Ian Lynagh <igloo@earth.li>**20080903215523] 
+hash: 0000002180-5c10cc4581f67b6a92460596a70bc67c646cafd8a4d832af7df99a5e4f92cd78
+[Add another catch commute rule
+Ian Lynagh <igloo@earth.li>**20080904010303] 
+hash: 0000001790-d2c73b08eef0c6cf0f30e97670c5471e5fcec11d4a1441dd3fe17e295b04cc31
+[Improve a few comments
+Ian Lynagh <igloo@earth.li>**20080904010617] 
+hash: 0000000391-93b76d6d932a95cd4c0b43fe33674eec9936e34f9acb7ee3205153c02125dfc2
+[Add another conflictor commute clause
+Ian Lynagh <igloo@earth.li>**20080904130251] 
+hash: 0000002169-c327286409799bd49fd09d1556fd6d2e0e9c956d9d89e84fca6bff4605ca961c
+[Add another catch commute case
+Ian Lynagh <igloo@earth.li>**20080904160541] 
+hash: 0000002511-66a1a82e9aeb4f645e93a9acee641acff9aa2527294eab119c99608c0af4940f
+[Add another catch commute case
+Ian Lynagh <igloo@earth.li>**20080904165235] 
+hash: 0000001136-51439ad7f33891f534dd29db1652492255f90c16b14a2c703511044271fad05f
+[Add another catch commute case
+Ian Lynagh <igloo@earth.li>**20080904165604] 
+hash: 0000000603-83fb66c2f256b101b61c47761a5a6f026bdd0b11b05c2f26cceee9b1a3de613a
+[Add the final catch commute case
+Ian Lynagh <igloo@earth.li>**20080904195403] 
+hash: 0000002411-de1e9b50905518719f4c61848cc7bff4cd8a8aeac89b12621af3163d9332ac9f
+[Remove a comment
+Ian Lynagh <igloo@earth.li>**20080904195515] 
+hash: 0000000116-d815bef24e08c92cd906cd04b254c258dee7746611ca4488e08cadd6315bb6da
+[Add logging (for debugging)
+Ian Lynagh <igloo@earth.li>**20080904230424] 
+hash: 0000006294-df7c0cdfabc797ad880c71222eda514fbbb14aa75bc42f87477f00b52824a222
+[Rename concatSeq to appendSeq
+Ian Lynagh <igloo@earth.li>**20080905140809] 
+hash: 0000000907-a6b4be74ea4786fbdfa48d5fdb769f4d469dc204bd7764049332edfa937906e9
+[Add a record command
+Ian Lynagh <igloo@earth.li>**20080905181845] 
+hash: 0000018009-d80f2edd5114dc32aa74a0e45de6356181849c7e79e5bfbcc879919aa982003b
+[Add an add command
+Ian Lynagh <igloo@earth.li>**20080905193003] 
+hash: 0000000503-cb75f40b186cc26ccf032ae467c46f2c39785e97e204c6aa667628a5dd811ca8
+[Fix the handling of empty files
+Ian Lynagh <igloo@earth.li>**20080905193208] 
+hash: 0000000429-b7bd2a38a02829e58c5cbeffea1450415cc2d1aebdc92b39c9f9f1021ce6fb49
+[Add exception catching at the top-level
+Ian Lynagh <igloo@earth.li>**20080905212443] 
+hash: 0000001426-e8961ec12c353e32bcc910795d9982ca33e94509a53d8246344cda8cc8390b8c
+[Add inventory command
+Ian Lynagh <igloo@earth.li>**20080905215515] 
+hash: 0000001139-c6dac492db3f6cc596b308168451491883f8845e353938ef715d02afddecb93b
+[Allow selective pull
+Ian Lynagh <igloo@earth.li>**20080906002346] 
+hash: 0000002872-988a8ad8e2c0a30761b0ad8834b80942f55447a3836d83988097569b820c2604
+[Add LICENSE file
+Ian Lynagh <igloo@earth.li>**20080906004640] 
+hash: 0000001626-21b161e7b8e2d7ae150ed7a4c845dd4fd4809eb5a5fd44794404303014a91294
+[Add usage info
+Ian Lynagh <igloo@earth.li>**20080906005634] 
+hash: 0000003242-10db6dacb4f69d2c1d12b879a16e7e3dcd3ce13055dc7672e0897427908d051e
+[Change the LICENSE file to have the right copyright info etc
+Ian Lynagh <igloo@earth.li>**20080906005756] 
+hash: 0000000711-eef0a35a67a3cd5fe1638bb5d21eb37e701b7c6e74b041f3cdacc6992b4190f7
+[Wibble usageinfo
+Ian Lynagh <igloo@earth.li>**20080906012405] 
+hash: 0000000314-d3f3243c148924466c6daa739a22b756d194f54e969fa825871d4f3bb623e6bc
+[Make printing nicer, and fixing reading
+Ian Lynagh <igloo@earth.li>**20080907105739] 
+hash: 0000007179-7d6124929f754f10a2cc75880f8a6bb3aac68ce14d64898237b1d57971175daf
+[Print some extra debugging output
+Ian Lynagh <igloo@earth.li>**20080907152842] 
+hash: 0000000994-aef4f3285ec35b783f04049d4a42c3faf9c358aa7e23882538f9b99ee8c54f0c
+[Add a Ppr MegaPatch instance
+Ian Lynagh <igloo@earth.li>**20080907153105] 
+hash: 0000000305-0908d01bffd1a50edee4c1f78bcf1a62af98978283571a6275f783ea1252af8b
+[Tweak Ppr instances
+Ian Lynagh <igloo@earth.li>**20080907153247] 
+hash: 0000000516-52e061b31bdf1e3470219d364378f600a275b4a6628369cecefe7cfae0a0904d
+['N' is Negative, not Positive!
+Ian Lynagh <igloo@earth.li>**20080907153725] 
+hash: 0000000208-06179894e277a2889805cbba6103f2201a86386d6dd5b679bce94d92db66bb49
+[Add a note about local changes and pull
+Ian Lynagh <igloo@earth.li>**20080907160144] 
+hash: 0000000255-8fcf4688cc3d80d676e7d387a14fbb3ee6b2f2ac615d3a9f0d9e0b0152c85a3b
+[minidarcs.cabal: fix haddock and build-from-sdist
+gwern0@gmail.com**20080908195634] 
+hash: 0000001030-89b7ff717f48e0ebaa2d9491daaf5def129ab69f4a0dfc77a364a598d863c010
+[Make the Cabal file module list prettier
+Ian Lynagh <igloo@earth.li>**20080908213831] 
+hash: 0000001864-5e7ddd7fdf77ece581608311adfe7b01e3b85107ee26ece4f8d59f57a9732203
+[Rename "minidarcs" to "camp"
+Ian Lynagh <igloo@earth.li>**20080910171306] 
+hash: 0000012300-5740b3dbcdc62042c21c2d2dcfd9154952a2a90a69d307fee7b5e0ffef057020
+[Conditionally use the real lcs package
+Ian Lynagh <igloo@earth.li>**20080910172833] 
+hash: 0000000733-009fed6fdf2711c89dd073f7692ed4ba64bac5ddf085348670441cada78fa488
+[Note which version of lcs we have inlined
+Ian Lynagh <igloo@earth.li>**20080911104929] 
+hash: 0000000239-ed43118cab689ed2f41c9aab268a7415636179415fd7702e87598e86e9c59141
+[Note that packages/ may use different licences
+Ian Lynagh <igloo@earth.li>**20080911110454] 
+hash: 0000000182-7dbfa31be575a94e5d8bc592e7d72822b91e325ac8c5c4946fe3ae75398d38f8
+[Ooops, executable is now camp, not minidarcs
+Ian Lynagh <igloo@earth.li>**20080911143442] 
+hash: 0000000154-d8792af2fd27e58f33f6d639de3bcbe602a440659ea518de73a59b0fec28c95a
+[Add the basis of a curl binding
+Ian Lynagh <igloo@earth.li>**20080911173603] 
+hash: 0000004455-bf43df5a3e4fda612021070cf4e65cb1f17f45da9f0280e944ed2657859ab2f9
+[More curl stuff
+Ian Lynagh <igloo@earth.li>**20080911185558] 
+hash: 0000001099-03d8e62f951773691674d2ad863f8d05aa8d408ce12dd2598419f645888b5feb
+[More curl bits
+Ian Lynagh <igloo@earth.li>**20080912130125] 
+hash: 0000002642-0b85e28522d1c66738031a540756567d0f596d3fa5f5cf74df383f415a8a5526
+[Change how we do IO, and move towards are desired name scheme
+Ian Lynagh <igloo@earth.li>**20080914013247] 
+hash: 0000034213-ba9b987973fefc307113e0afdc74edc758c3a8dd922cc5c4fbc21ad70c0a147a
+[Remove an unused file (Camp.Patch.ShowRead)
+Ian Lynagh <igloo@earth.li>**20080914014715] 
+hash: 0000000464-f6c2814a3abeeff2cd904ec9aab8787c13ea949ed4923d16ed9ab0d967d17fcb
+[Comment and layout wibbles
+Ian Lynagh <igloo@earth.li>**20080917140230] 
+hash: 0000000862-b32fc7c847529c9176cfb3d0012ecad5619778dd8cbd65f613712419ec320adc
+[Replace some () contexts with mid contexts
+Ian Lynagh <igloo@earth.li>**20080930163511] 
+hash: 0000000772-5d578ba60014b588f8700f9011d50b0853384233a874057ab31cb8544dda407a
+[Add a first test and simple testsuite driver
+Ian Lynagh <igloo@earth.li>**20081016151349] 
+hash: 0000001610-d448e1cc3fb0fab6d59b0d8deea3a489955620d772291d620bc56e7c06893575
+[Add some comments to the test
+Ian Lynagh <igloo@earth.li>**20081016152249] 
+hash: 0000000328-154cf41fe7c3738a53a3080444688fc48310da49f812f004cc8f546d9fa4ba73
+[Add a Bytes type
+Ian Lynagh <igloo@earth.li>**20081016153749] 
+hash: 0000000111-2fa529a65b35ed20d6c6ad10599550cf2346d3acf5b3ac1b494848eafecfba98
+[Add a comment about a more efficient hunk format
+Ian Lynagh <igloo@earth.li>**20081016170748] 
+hash: 0000001115-bbb41140ac697cd9ef4cbc17f5887a78d86f97a94c717fc95e2ee921c7b80f81
+[Add some more patch types
+Ian Lynagh <igloo@earth.li>**20081017004653
+ AddDir, RmDir, MvDir, MvFile
+ The commute definition needs more work.
+] 
+hash: 0000008397-707a913840c7a9b6642bd3a87ed19d54a49f96ace53ae868697a171367781d0b
+[Add another test
+Ian Lynagh <igloo@earth.li>**20081023152706] 
+hash: 0000001577-945731955307fcbe9a1bd0b86e6e49e1887e5bb044ac5a0247ae6239c45d2713
+[Wibble
+Ian Lynagh <igloo@earth.li>**20081024014127] 
+hash: 0000001657-5f5073f208f7e6924545268c34256524fef163928bdd4e8534bc1df9e03b178e
+[Comment out curl for now
+Ian Lynagh <igloo@earth.li>**20081025103117] 
+hash: 0000000505-1d61afb6651f290c7d030078c32fc59235df0cacd5a218cc301d1b1b83063253
+[Fix a silly bug in printing base 62 numbers
+Ian Lynagh <igloo@earth.li>**20081025105413] 
+hash: 0000000269-b7433779bcfa395bad0881d99c20b094bbbe3b80821c2aa4f54ab01b0b82ef68
+[Minor refactoring of genName
+Ian Lynagh <igloo@earth.li>**20081025105434] 
+hash: 0000001156-f657d08dd67011a4b34c891007401834fa39fc5c0d82e5ce15b12ef880e01900
+[New hunk type sort-of works
+Ian Lynagh <igloo@earth.li>**20081025110914
+ The testsuite passes, but that's because it doens't test the cases that
+ don't work.
+] 
+hash: 0000015403-1484c555591b52ff99bdc0bf95aabd138c689b350882d1de490a76bccf84e9e4
+[Tweak errors and comments
+Ian Lynagh <igloo@earth.li>**20081025112813] 
+hash: 0000000486-aeb6c3a90c175043b1869130077b7244254f0268a98cdb879e92b3da5ca8bb4f
+[Wibble types to avoid so much unnecessary conversion
+Ian Lynagh <igloo@earth.li>**20081025131047] 
+hash: 0000003661-0369d2b3e8ed10d5267a3278fe57c5da9933edf8378ecc3f48d3242454eeb813
+[Allow a patch name to be given when recording
+Ian Lynagh <igloo@earth.li>**20081025132849] 
+hash: 0000001491-341580f78b1fa427e92ad9047484940cf3dfd1e174aa680681fde53df473ddb7
+[Wibble test boilerplate
+Ian Lynagh <igloo@earth.li>**20081025133240] 
+hash: 0000000502-b71e91f5a261b5b92ccfd689ec78e8fb48ae4f48b51faf2d9bbb0580c58e4237
+[Remove some more unnecessary fromIntegrals
+Ian Lynagh <igloo@earth.li>**20081025133837] 
+hash: 0000000475-8750b05f05d7004e5f4ba52b8f0480d533a98bcef64cddcc8dc72a6bb587a323
+[Fix name parsing in pull
+Ian Lynagh <igloo@earth.li>**20081025141009
+ We can't use the binary unserialising function, as thesse are things
+ people type at the command prompt!
+] 
+hash: 0000003089-30f1a05cf5fc84b4251a95a055bde5abe942d4a056a8b54a0b186c8cb51a18a4
+[Improve the hunk pretty-printing
+Ian Lynagh <igloo@earth.li>**20081025141959] 
+hash: 0000000954-66340ed70461a21ea4427ce6fbfa9d628c5ff143c6045fccc1e5b8ffb230468a
+[Improve the new hunk code; might even be correct now
+Ian Lynagh <igloo@earth.li>**20081025152909] 
+hash: 0000008473-abe8dd270c6cf3040e83eddbe104045d2170cd23c74d6c960c2799868a205fda
+[Add another test
+Ian Lynagh <igloo@earth.li>**20081025152935] 
+hash: 0000002205-25aa1749e3fd5a6d2d7aa98ba8a4ddc4b116aef911d7424eeca31bdfe9b0f3d3
+[Add another test
+Ian Lynagh <igloo@earth.li>**20081025153343] 
+hash: 0000002269-238a6d1734364f1cd7efb6b09473744109fe6c0becfda8fc9b9a3a56afbe7172
+[Remove a redundant comment
+Ian Lynagh <igloo@earth.li>**20081025153943] 
+hash: 0000000193-10de3798344bb56748f615978ffdc5ebdd86413efc9efe170200882bd861bd11
+[Remove a redundant XXX comment
+Ian Lynagh <igloo@earth.li>**20081025154357] 
+hash: 0000000186-beb28850188fd7a50ac181aabd1f5e63c99c78bf6e3a3bef0b7dac9e4d1e860e
+[Ooops, add the Show command module
+Ian Lynagh <igloo@earth.li>**20081025154412] 
+hash: 0000001189-ea1765885bba7ecb8bf52e212836294da90ae16d7e0c6a28910c7f37a551343e
+[Don't complain about exit exceptions
+Ian Lynagh <igloo@earth.li>**20081025214259] 
+hash: 0000000589-677fa49b6c64c9bf52a1493d0bd51f845441eb13b7dd1dd2a0cccbcf23cdcf42
+[Basic interactive commit
+Ian Lynagh <igloo@earth.li>**20081025214616] 
+hash: 0000005327-9cb95615c2791ac215144f59a2e9e1bbdd0b1062a187cf8ede0924594b3dbd83
+[Add a comment
+Ian Lynagh <igloo@earth.li>**20081025214809] 
+hash: 0000000118-cf871c192f73c04aeeade8db8e52eb9d2068ed68299f31651cc01c090035bc18
+[Remove the Test module
+Ian Lynagh <igloo@earth.li>**20081025215131
+ It's mostly redundant now that more commands work and we have a testsuite
+] 
+hash: 0000004402-e82ef807886bedf890cc142d9abd2e4ef8986ae75fa4bbd9d5c0bb7ff7d98ac3
+[Add the RevSequence module
+Ian Lynagh <igloo@earth.li>**20081025215600] 
+hash: 0000000603-8c65100c99ccdb006222ae6716fcbb14da7014fcf88b082f751310746d2e0096
+[Make a Repository type and pass it around
+Ian Lynagh <igloo@earth.li>**20081026104724] 
+hash: 0000018299-3368627f6b35ea78f38ae2229f2fb6ae173f448c598ed8b73308077c83fca9f4
+[Windows hacks for interactive selection
+Ian Lynagh <igloo@earth.li>**20081026111803] 
+hash: 0000000833-075c3e4e26ada6ef3a0d3b93ba55d099f783d9e1aa3db2da6e381bc084779afa
+[Re-enable the curl support
+Ian Lynagh <igloo@earth.li>**20081026155535] 
+hash: 0000000507-a4830bbc452264c89ddb377ddcc5e33caf7162581fca8d53c8221447d74bb30a
+[Split off a camp-core library
+Ian Lynagh <igloo@earth.li>**20081028002227] 
+hash: 0000005939-9cf14cb8e4d14ef9213878f483f0c80de276f3db972ed80b1de4eda0382263d5
+[Split off camp-repository
+Ian Lynagh <igloo@earth.li>**20081029191808] 
+hash: 0000010917-33ae94330f94b45753bdbe14daf2b5419e26e5e7f8ef89d40173e11410fd9f71
+[Update boring file
+Ian Lynagh <igloo@earth.li>**20081029192558] 
+hash: 0000000331-e7287b9785de36fa7d599429b75453b41c91e7878261f73621f2bea1624799b4
+[Ooops, add camp-repository.cabal
+Ian Lynagh <igloo@earth.li>**20081029192605] 
+hash: 0000001604-f466aa1441094d8685a3a9e3cf7f9f9543af694b865a7ff6e986597c5c2491e1
+[Add Binary patch support
+Ian Lynagh <igloo@earth.li>**20081030001112] 
+hash: 0000001725-28119bf92aa9fd0493149574ce47db924a15070e0f9d12aa46237e1fb7fafa49
+[Fix a silly file diffing off-by-one bug
+Ian Lynagh <igloo@earth.li>**20081030001136] 
+hash: 0000000262-df2130c2e6c980a94ade3fd6b25f1dd8d12c225d99a7082a6dd75a62f29d4144
+[Split off a Camp.Record module in camp-repository
+Ian Lynagh <igloo@earth.li>**20081030024742] 
+hash: 0000002255-f707c9cfe5a43cd783594be0fd1a0c1d502250387eb74e90bdbf76ad6c2cae34
+[Turn on tab warnings
+Ian Lynagh <igloo@earth.li>**20081101161204] 
+hash: 0000000412-dcaa2bcaed4b7461106a27930d7d5ecca373bd61f1e8fae8eef830d229138cdf
+[Fix SubName's valid definition
+Ian Lynagh <igloo@earth.li>**20081103013430] 
+hash: 0000000423-dbcc964c33fa120a78509ac2b35255a66eb842295785755d938be6a1ee2fa3ff
+[Fix the Patch instance of valid
+Ian Lynagh <igloo@earth.li>**20081103014435] 
+hash: 0000000265-6f30f143865a40cba8af6ae1c832ba1e7e7167b24cd8321baf98d4032caca590
+[Add timeCommand to Utils
+Ian Lynagh <igloo@earth.li>**20081103171249] 
+hash: 0000000605-4e68cff009ff6ee53792f93a5d541f8b7a155354b5979d83d0f50f6f2ec5cfa4
+[Add the basics of the 'get' command
+Ian Lynagh <igloo@earth.li>**20081103174230
+ Still need to do validity testing of the inventory and megapatches,
+ and while we're lazy enough in the megapatches we're still strict in
+ the inventory.
+] 
+hash: 0000010605-7cff69c7877268edefe2c0cb845f161c006e52777d7b6fad351da339f96a5837
+[Fix a sign error in hunk commute, and add a test for it
+Ian Lynagh <igloo@earth.li>**20081108135336] 
+hash: 0000001626-2c003b165ad826916b578de65b01cf4d3ad63ce6b52392f28805e0f5b4d73458
+[Hack to avoid leaking space when reading the remote inventory during "get"
+Ian Lynagh <igloo@earth.li>**20081109024553] 
+hash: 0000000674-f44d48d2a7e445bbaa0643258873d8e8bcc7072ce6632218ffd84ae611163ec4
+[Add a comment
+Ian Lynagh <igloo@earth.li>**20081109030009] 
+hash: 0000000157-4851ff2c968da22b9e0e5c64e30ab0e69156bee3709d59699aab955f04b358ac
+[When "get"ing, don't apply the patches twice.
+Ian Lynagh <igloo@earth.li>**20081110223427
+ Just copy the printine tree into the working directory instead.
+] 
+hash: 0000000933-a674dbc3675564c10a77519095b0836dd30aca48e5adf43a0d150f1451ae637e
+[Fix a bug where "get" tried to create a directory that already exists
+Ian Lynagh <igloo@earth.li>**20081111002042] 
+hash: 0000000831-2589c69f8373ce1bea0c9e5449b8492163bb7e1706b0f95d873007bd82b16ec6
+[Add a hacky normalise call; should do normalisation properly
+Ian Lynagh <igloo@earth.li>**20081201001545] 
+hash: 0000000519-a246dc32875b842fd6e0a7134e9848f2c28c4ea1589642590d43224c152ce6dd
+[Add a quick hack of a camp-view program
+Ian Lynagh <igloo@earth.li>**20081201120707] 
+hash: 0000018500-1daa51dd83cb54784abfe2657c387338bcbf6cde3910598b7a8929462931a3e1
+[Add metainfo to megapatches
+Ian Lynagh <igloo@earth.li>**20081201211657] 
+hash: 0000008278-b53eacc306947de6f3e3dc45e728a0d1ebc017436c3e37d4bb21732945cfab2e
+[Make the pull command interactive
+Ian Lynagh <igloo@earth.li>**20081201215517] 
+hash: 0000005117-641d6fd1a79219de9e7ba93f080b01d5ff2353ddf2006df5ff0bfb5cd2554953
+[Hack to (sometimes) support the -m flag in record
+Ian Lynagh <igloo@earth.li>**20081201220700] 
+hash: 0000001247-0ee78b2b22a511333030085691cebc70b9e87ea1888a909e90e9956b2d870e5d
+[Output wibble
+Ian Lynagh <igloo@earth.li>**20081201221039] 
+hash: 0000000371-0caf71b9fd9a74f0160d6e61ba50a3e5c25a49b5224f1286d17029532b7ad0b3
+[Fix getAuthor
+Ian Lynagh <igloo@earth.li>**20081201221725
+ It should only read the first line of the file
+] 
+hash: 0000001066-0a86d1f47d40fec1c38dd865e9c6bf308e263a470baf00accacd3ba78be0f3f6
+[Add a touch of colour; for now we assume ANSI escape sequences will work
+Ian Lynagh <igloo@earth.li>**20081201223030] 
+hash: 0000000751-f523224cf04913d2497db348487369031c6112c60e1903101370ec41d636e47c
+[Wibble to camp-view: patches are now filled blue blobs
+Ian Lynagh <igloo@earth.li>**20081203184145] 
+hash: 0000000282-b953f824d6d8858c87ed8c615d2c5614e818a7013afc8bd3f6aded22525f06ce
+[Reformat Primitive/Apply
+Ian Lynagh <igloo@earth.li>**20081213151751] 
+hash: 0000006377-a497b9354dc6b27b924d27dfd8343109f2f85cc9dc5b9cf1caa63680f5d54f38
+[Stop apply reading/writing the same file multiple times in a row
+Ian Lynagh <igloo@earth.li>**20081213160644] 
+hash: 0000007677-8038a72ae0efa9934de665fac4f957311070aa359c61af6e003305b81554d7a9
+[Follow changes in the hunk_commute test
+Ian Lynagh <igloo@earth.li>**20081213164403] 
+hash: 0000000711-58231560e4a20614d4a225d31f0d7724a63143e2fb71163aa3fc5279c36d9a4a
+[pull now takes patch short descriptions, rather than patch names
+Ian Lynagh <igloo@earth.li>**20081213164516] 
+hash: 0000002618-6c748e93daaf623581e39ed9eb01e7c16d50e03dca35087f9045bff8c1def8bd
+[Add "camp pull -a" support
+Ian Lynagh <igloo@earth.li>**20081213170326] 
+hash: 0000000240-515210f715df913ff4c0e78430b79e9ebc50c7ac4d94fa832e812054f5e5b55f
+[Follow changes in the simple_merge test
+Ian Lynagh <igloo@earth.li>**20081213170342] 
+hash: 0000000604-391aa41aded63b078f94b413a85a6a5a280114a1012bb8e0580571080e0064cc
+[Follow changes in file_end_commutes test
+Ian Lynagh <igloo@earth.li>**20081213171124] 
+hash: 0000001974-db17bbd9d90ab96b8b96c7ac2a91c1ea9ae98ad6679ca85e83f640b8e9c16b4a
+[Follow changes in file_end_commutes2 test
+Ian Lynagh <igloo@earth.li>**20081213171305] 
+hash: 0000001985-1025099d3bed4cfa64f0999547d38605e1240074ab43a35c69959d0d7b640497
+[Fix a bug in the new patch application code
+Ian Lynagh <igloo@earth.li>**20081213172302] 
+hash: 0000000354-9aab8da3b8cb4525f281b8665562c0a1187ac810c5cf488ffe0a525b02058236
+[Follow changes in the darcs_issue1043_b test
+Ian Lynagh <igloo@earth.li>**20081213172315] 
+hash: 0000000923-332c4d358014a81defbedb2f5decb59c24a25f1c872586ad9c9c1615979034ae
+[Get rid of applyToRepo
+Ian Lynagh <igloo@earth.li>**20081213183322] 
+hash: 0000000941-ae40444f2017d92148c022820f9aed05d5b8fded2b5aca7dcb2db2f87a093063
+[Pull the inventory stuff out into its own module
+Ian Lynagh <igloo@earth.li>**20081213184434] 
+hash: 0000006716-4bbd04095078cddfe3ec7f51ab5ac63162522cee67c3686108321940edfd2c21
+[Use a proper filename type, rather than relying on FilePath
+Ian Lynagh <igloo@earth.li>**20081216203318
+ This solves our normalisation woes.
+] 
+hash: 0000015113-714bb8ec96ab59fb28f871384460d58d5e4060e13d65681433ed775602ab9cdb
+[Add a comment
+Ian Lynagh <igloo@earth.li>**20081216205859] 
+hash: 0000000156-197ebeade7d70a164f9ea727694d17160b8156990ea2cf57c1cebb4f2b1e834f
+[Add a comment
+Ian Lynagh <igloo@earth.li>**20081218135804] 
+hash: 0000000180-3d43be395bfa82618cb7b47e6a6026397c6f31dd177f142175dcd73efdded8b0
+[Comments
+Ian Lynagh <igloo@earth.li>**20081218154117] 
+hash: 0000000490-56c4c12704a5e659e6eafe748f981edf2461faedddd0b583c0d4896015aff513
+[Add initial Camp.Options
+Ian Lynagh <igloo@earth.li>**20081220151919] 
+hash: 0000002356-54ce489caa26aeb5fc106c90e724f864a9d6cab20383b2642cf933d7f5d11519
+[Add Camp.Options to the modules that are built
+Ian Lynagh <igloo@earth.li>**20081220151951] 
+hash: 0000000144-e75f7018953227e736efaa83cca1591225cea309aad9f97b5ade171be050b715
+[First crack at actually using the new options everywhere
+Ian Lynagh <igloo@earth.li>**20081223145144] 
+hash: 0000008714-cb616516c52185592c7f641d3893a90a4a676424289ae69872bb401ea69b9a62
+[Actually take notice of the gfLog flag
+Ian Lynagh <igloo@earth.li>**20081223155014] 
+hash: 0000014611-452d082b2809f9051053c2b003354c7875a415c948e86645e21eb371a2af0626
+[Make Interactive warning-free
+Ian Lynagh <igloo@earth.li>**20081224114301] 
+hash: 0000000861-95717431f1cd349518b219e08a55cc3d2d5ea993df6738d02463e5742d79cc9d
+[Split the logging stuff off into its own module
+Ian Lynagh <igloo@earth.li>**20081224115227] 
+hash: 0000005816-67a2087816143b114fed59def43ceeaa6d356162bc1245db1f3e058a5230cb5a
+[Ad appendInventoryItem
+Ian Lynagh <igloo@earth.li>**20081224120139] 
+hash: 0000000463-59cefdaa41794d254eaf81bce9380c8997e433a1ffde6d6e08f9b0547012d879
+[Use appendInventoryItem in Record
+Ian Lynagh <igloo@earth.li>**20081224154544] 
+hash: 0000000262-48521c292a54a1270011d7e9bc6c616b2808e8f6c6c87981d9c64bf11d286c1d
+[Inventory files are now streams
+Ian Lynagh <igloo@earth.li>**20081225103109] 
+hash: 0000002435-d4d3f3574e19e67a6955facda0573748f15f32f77518a4efc1eff65874df162e
+[Avoid some unnecessary IO when writing megapatches
+Ian Lynagh <igloo@earth.li>**20081225111851] 
+hash: 0000001796-2b9fa8b62a1d4cf4ac741d56a3b5e37f19fc347b511fef085de476fc675cb1f3
+[Use Bytes rather than Integer, and change inventory to use length rather than end
+Ian Lynagh <igloo@earth.li>**20081225120828] 
+hash: 0000007826-426f11df9150d4e9cd01abcdb4f66dbf1877cf27b36597ef0abf107484b5c622
+["camp get" now creates a directory for the repo to be in
+Ian Lynagh <igloo@earth.li>**20081226164554] 
+hash: 0000001210-8886cefdc8848ec9cf14ddf08449f5972c8af2189233f3b4126667be7bd05378
+[Look for a repo in parent directories if . isn't one
+Ian Lynagh <igloo@earth.li>**20081226173726] 
+hash: 0000001062-bbe963fcab9ab9a9bf137dbcb5028a054ba3f86b0d217a2d2eab622b45fe3611
+[Add getopt option handling for the record command
+Ian Lynagh <igloo@earth.li>**20081226173912] 
+hash: 0000004393-f6337b00bf7afdb19b881fecdfc32ae49337c935fbd136f041d58e33968b3e69
+[Actually use the record options
+Ian Lynagh <igloo@earth.li>**20081226180030] 
+hash: 0000002796-58f6fccef2c3adcd02760e68376da9c6da64362cf6e54dd567ca5f05724de297
+[Remove the getEcho Windows hack - it breaks in an msys window
+Ian Lynagh <igloo@earth.li>**20081226211413] 
+hash: 0000000816-486b20fc9f4b0f96858bd1192183c0f4279af2f86cc681f8cf25942f7839be9c
+[Sanity check inventory when getting a repo
+Ian Lynagh <igloo@earth.li>**20081231124800] 
+hash: 0000005778-fce425b1e103121686457a5c2b0df9177b972c62962a8ef33b266eb9fdef1d4f
+[Rejig some imports/exports
+Ian Lynagh <igloo@earth.li>**20081231125430] 
+hash: 0000000481-0f6aef6561c19659878d43d73ff7a6721aaf4335ae4253fae4bba86b24e3e2cb
+[Start on providing verbose messages
+Ian Lynagh <igloo@earth.li>**20081231164343] 
+hash: 0000004289-c587dcb207e13531a45e4b227ffaa88eac949828cec9116b709a231520b74a57
+[Actually use logException
+Ian Lynagh <igloo@earth.li>**20081231165818] 
+hash: 0000000779-09959ed096d63e6a25ee8b719e1d3972c0ef9f9899535049637f25ee4e4af0f3
+[Remove some unnecessary exports
+Ian Lynagh <igloo@earth.li>**20081231165928] 
+hash: 0000000175-edc68c0e4af76358b08d197ad526ec337e7efb76972d6b578ccc3ed74a74b936
+[Remove an unnecessary import
+Ian Lynagh <igloo@earth.li>**20081231170023] 
+hash: 0000000162-06a6adb2e3e3b3d3770afdd7594cf8970edb6f8f26e9402110a8207851c8da1e
+[Remove an out-of-date comment
+Ian Lynagh <igloo@earth.li>**20081231170243] 
+hash: 0000000182-29d6f4731a036c4feb9d7cf67daa0b8c2a133f09ef66f871b50f6ff89cd28013
+[Updates to the help output
+Ian Lynagh <igloo@earth.li>**20081231203023] 
+hash: 0000002974-038e1af94c05642d4d45c83effa238dd1053fc5886bdb2eaa45818cfc5313c82
+[help output wibble
+Ian Lynagh <igloo@earth.li>**20081231203252] 
+hash: 0000000280-050fbc1c44250a37b85492a16a4285ac33625f1518f15eab4eaade9aaa02948b
+[Wibble main a bit, and give some prettier errors
+Ian Lynagh <igloo@earth.li>**20081231205939] 
+hash: 0000003021-936fa811532f54123b38d36b5a034ad9afdf89c4e23f96dc71da44df4c598655
+[Change some more error's into die's
+Ian Lynagh <igloo@earth.li>**20090101014637] 
+hash: 0000000585-205b887358831cc2edcc91d54018a2d59331e8b9b90fa5651b7657322c3d9bcf
+[Remove an out-of-date comment
+Ian Lynagh <igloo@earth.li>**20090101022733] 
+hash: 0000000146-dcc45853f1907e79ab4e22f92ceecd1b35b2536187be89ef3269efcf4a46637d
+[Fix verbosity test to be the right way round
+Ian Lynagh <igloo@earth.li>**20090103134748] 
+hash: 0000000253-7dbdd4c0994dc186cea01d3379187e6cedcd49890176fde232344f6aa34c2852
+[Comment
+Ian Lynagh <igloo@earth.li>**20090103163612] 
+hash: 0000000158-69f3e8caab16889b9fa2e542eac1a34d535a071394d11da532146daee32aba9b
+[Give more useful info when verbose
+Ian Lynagh <igloo@earth.li>**20090103163626] 
+hash: 0000000368-eb4dc254f967c9e930ece1bb36b178b49f75dffffa6bdf883dc723cc0416d01d
+[Wibble whitespace
+Ian Lynagh <igloo@earth.li>**20090103163645] 
+hash: 0000000323-8de69c934f9c6e3dca230dbfaf9dafed65ec6c5f78131e3d919aa94cbf7a2675
+[Fix off-by-one error
+Ian Lynagh <igloo@earth.li>**20090103163656] 
+hash: 0000000200-dc27acb6462fe91bbc45b86bc2e7119eb19d21027bcff8565c007fc43e4cd5ff
+[Complete the "valid" definition for primitive patches
+Ian Lynagh <igloo@earth.li>**20090103175532] 
+hash: 0000002885-d47c2071f35a4421d48dc9a94ad5208c90245b76cb04c6478c2d24f6ddcd4957
+[Add headers in the output of MegaPatch and InventoryItem
+Ian Lynagh <igloo@earth.li>**20090103210106] 
+hash: 0000004673-da92b9eb8628687280beacdef5717c45287bbdb18e314d0fb263bd21910269a8
+[Fix content-merging
+Ian Lynagh <igloo@earth.li>**20090103213823
+ It behaved incorrectly unless all the contents were contiguous and started at 0
+] 
+hash: 0000000477-0ef9af7d8b452228e6f7850bea10e49e78970ab7c498285a78c7bb202ac71473
+[InventoryItem's has InRepoFileNames, not fully qualified FilePaths
+Ian Lynagh <igloo@earth.li>**20090104103632] 
+hash: 0000006718-9b4815c34a66708899270f791fc5f39c6afa8e794260ece42947bd86fda13605
+[Add some verbose messages to pull
+Ian Lynagh <igloo@earth.li>**20090104104523] 
+hash: 0000001926-d29ba1a88ef9481ac0cdd0c06424c156f8c44da1491eb7511ef645bf0125b340
+[Remove an erroneous hClose
+Ian Lynagh <igloo@earth.li>**20090104104542] 
+hash: 0000000141-9e7e2d1d8e13c5cf79c26c24ca207b38b6eea332eb53d8dc3567dcdfbe267ab9
+[When getting a repo, say where it is going
+Ian Lynagh <igloo@earth.li>**20090104123924] 
+hash: 0000000253-e57d0f891d219c20bed7e1efae98eedea9db5ec13c1bc591d11f20064c579df8
+[Split locked and unlocked repos into two types
+Ian Lynagh <igloo@earth.li>**20090106222758
+ We don't yet take advantage of the split, though.
+] 
+hash: 0000022721-d45b352aee7855be5579e1a3602f4219ae030b7c07fd806b0947ff9bcf79c229
+[Start separating out the network stuff
+Ian Lynagh <igloo@earth.li>**20090214000749] 
+hash: 0000006984-26dafcda71eaabe943ce2af33cd9bbb6ea0bd69fc0d971aafb8055df7fc8fa4a
+[Add the networking files
+Ian Lynagh <igloo@earth.li>**20090214131407] 
+hash: 0000009158-fdec942505b00fa5b3955adba9d5aff96413f6ea6f2e2090c5446747156933c1
+[Start actually using curl
+Ian Lynagh <igloo@earth.li>**20090214231456] 
+hash: 0000013443-4fff4fa776938814894d551ce6c39a1445d5e766d613c66b9bb39626fd807106
+[Do some refactoring
+Ian Lynagh <igloo@earth.li>**20090217224654] 
+hash: 0000026199-cca906900d6fe0c7fd61f53f6ad46effe8d3dbefee6a47928d2786c5a8b50eec
+[Fix building with the HEAD; add GADTs to some extension lists
+Ian Lynagh <igloo@earth.li>**20090218164749] 
+hash: 0000000805-f1ac8e8e175f0ebf636addc01b1e765083a86d2bcc3bf986ec103b8412f22e84
+[Allow get to be told where to put the repo
+Ian Lynagh <igloo@earth.li>**20090218173853] 
+hash: 0000001144-2320a9a7e45ed8a259fd2c269e2f55357a8cc9be90d752065bf6152782cb38af
+[Add some verbose messages
+Ian Lynagh <igloo@earth.li>**20090218173902] 
+hash: 0000000558-8a9eff052ea4a19cf77434833d3dd88103aab4d1644af6924be15d49c84d2941
+[camp-network now depends on camp-core, for its types
+Ian Lynagh <igloo@earth.li>**20090218174023] 
+hash: 0000000489-9aa83d76ea426dbebab2007c13c6bf6de12945a7a5d8e025558fa2ac786382b0
+[Add a test for the get command
+Ian Lynagh <igloo@earth.li>**20090218184116] 
+hash: 0000000802-42a5b92d10959dd18dd027085960ad1924ebd9c20f3fd9bec217fda72a70fdf0
+[Make URL an abstract type, and fix the get command
+Ian Lynagh <igloo@earth.li>**20090218184125] 
+hash: 0000008643-f446b188a4918f95d914650e36b89b55baee3a1a316b8cc7a77810452ccaedc9
+[Add -O2 to Ghc-Options in the cabal files
+Ian Lynagh <igloo@earth.li>**20090219142202] 
+hash: 0000000743-e8ac3c100544a41ea4272d9e4b94e4e7873eabefcba4de441de05fc215211229
+[Define and use splitAtExactlyBS
+Ian Lynagh <igloo@earth.li>**20090219142254] 
+hash: 0000003690-af80dcb8931a1f2d88cacd1abaf5313aceb483410bebe99dcf8ebdfa558cbd98
+[Add some strictness to InputOutput instances
+Ian Lynagh <igloo@earth.li>**20090219142810] 
+hash: 0000001283-0fe4d0f12e16329c5c7a588ed8c66c86409101f08a098e606c3876724ff8ea96
+[Avoid calling BS.length when validating
+Ian Lynagh <igloo@earth.li>**20090219150730] 
+hash: 0000001011-e874ceaea47d8189c8a30adadff53719bcdeac115934d6b226cc9db6a85c9968
+[Don't read the inventory strictly when reading patches
+Ian Lynagh <igloo@earth.li>**20090219165708] 
+hash: 0000000267-15087af4ffb1f6c9f0a9da3374b56d5a8bcc220eb1ffa817af0c783da6e41368
+[Read the inventory lazily in more places
+Ian Lynagh <igloo@earth.li>**20090219165934] 
+hash: 0000000388-648f9c1a0f7aee40d475d627b5703f5f2799d0962e236831c49b30bf356e4225
+[Strictness tweak
+Ian Lynagh <igloo@earth.li>**20090219171033] 
+hash: 0000000455-d2313b600c7ad38590738285c2050fb2c2dc699f815fef68304e5a7246bbe20b
+[Work around GHC bug #2762
+Ian Lynagh <igloo@earth.li>**20090219173909
+ The recursive InputOutput instances, for things like lists, sequences
+ and streams, can leak memory depending on exactly how you write them.
+ http://hackage.haskell.org/trac/ghc/ticket/2762
+] 
+hash: 0000004006-e7fff433c20acfe6f114feff9a8c6d0b0c8d770e6af526aef392c906ec7cd07d
+[Work around ghc bug #2762 some more
+Ian Lynagh <igloo@earth.li>**20090219184105] 
+hash: 0000002481-1d33d3e130e29718e8d303574b10ed326c6ef627e70e6b586e3c3f6757d8ab58
+[Another strictness fix
+Ian Lynagh <igloo@earth.li>**20090219185411] 
+hash: 0000000934-699e1f2b5ccfbcacf216671bb18b50b4f1bf76cebfbd43a9e4e13c6622690f01
+[Pull some definitions out of instances
+Ian Lynagh <igloo@earth.li>**20090220194915] 
+hash: 0000013086-4bf9fcdabebeb640b64601ae3bbd420b3339cdefb5e68dcaa5ff42a4a3dc853a
+[Add a todo
+Ian Lynagh <igloo@earth.li>**20090220200814] 
+hash: 0000000143-5610ad34c5d6bfed1ed5017ec23d35787dc30e047b79798b111d1ebe08c720e9
+[Pull methods out of the InputOutput [a] instance
+Ian Lynagh <igloo@earth.li>**20090220204713] 
+hash: 0000001934-60b9a0538937cf1fc1728d8162924def21f746a251ff037eb6f4c8caba9f50bb
+[Add a version constraint on the libcurl dependency
+Ian Lynagh <igloo@earth.li>**20090224164017] 
+hash: 0000000485-5f8426c714d55fc0cfc8e6473075872128213e5bd495bce097365d23c927547c
+[Add a README.txt that's been sitting around unrecorded for a while
+Ian Lynagh <igloo@earth.li>**20090311001604] 
+hash: 0000000551-d3f04b8250a4dfbe8a9a0c194cc1515bd50150d3280f8c4dcc50649960ec9459
+[Simplify the contents when getting patches
+Ian Lynagh <igloo@earth.li>**20090313011256] 
+hash: 0000000860-7ba455b020b830d004d10db01711a60d65e38e91af24004c1279bca5f9c4fde2
+[Implement camp-fragment
+Ian Lynagh <igloo@earth.li>**20090313175139] 
+hash: 0000004489-1c1774a42926866a1a4c7e698d2d8aacf577738b8bcd2b22081a9d36ca931fe3
+[GHC 6.8 build fixes
+Ian Lynagh <igloo@earth.li>**20090330104608] 
+hash: 0000063956-ec997322ab5d30a9418f0acf9a8b02d513f9ed6dd356d4a1029212fdf226ba22
+[Build fixes
+Ian Lynagh <igloo@earth.li>**20090330112722] 
+hash: 0000000367-ca21bbb1ccd8ac5fe8b033cfcaf957745f0c04d00c051ca282efaac1f55260a6
+[Rename "camp rollback" to "camp invert"
+Ian Lynagh <igloo@earth.li>**20090716135122] 
+hash: 0000000259-8fff2f32e2cee420530e6a760a70545e72b404ac9da27d48afdbf038f34d4963
+[Fix warnings with GHC 6.12.3
+Ian Lynagh <igloo@earth.li>**20100806123526] 
+hash: 0000001732-9bd672395f7afce64a5357f7d190133bd3b92ef1f97de84bc5ae0c194f629988
+[Add a "rec" command, as we don't have prefix handling yet
+Ian Lynagh <igloo@earth.li>**20100806123926] 
+hash: 0000000261-8747b67d9934aca23a79e93d8f98c89d43ea93490e21eca7e519c9181aed3a5b
+[Make some panic messages unique
+Ian Lynagh <igloo@earth.li>**20100806124550] 
+hash: 0000000965-a0980dab31b21e9a31a1118a2774dfb3b8342dbd1c9b3bd5a3dceb911837d763
+[tweak a comment
+Ian Lynagh <igloo@earth.li>**20100806124926] 
+hash: 0000000199-808a0e2453e1bd2b54afc4456a0935d949fe39708d1c2e7325984440b6a5538e
+[Implement annihilation
+Ian Lynagh <igloo@earth.li>**20100807172039] 
+hash: 0000004513-6c24b442f2f585be756d27c07adabbd5dedefc367077fa769c7dce8dd1334725
+[Implement panic2
+Ian Lynagh <igloo@earth.li>**20100807174919] 
+hash: 0000000350-ae7a9613cda998637ba4e09526935e30b6c9e3b5e198deb7ec8f67619ea8d71c
+[Tweak layout of catch commute code; no behavioural changes
+Ian Lynagh <igloo@earth.li>**20100807175825] 
+hash: 0000019180-810a2219aab39b24a702ba1eddfbe72fee616bb148555d5201ca0f02b15ced0a
+[Add some panic2's
+Ian Lynagh <igloo@earth.li>**20100807180810] 
+hash: 0000001207-d94f65fe8641fe0e16785be8abb4601e5c4a0bee531326bb86788a4f58649abf
+[Tweak panic implementations, and add panic3
+Ian Lynagh <igloo@earth.li>**20100807180824] 
+hash: 0000000532-d9885bdcac5383289dbfb82ada9a06f229bd839394f5263715818153a17fcb9f
+[Add some hacks to get another panic to contain more useful info
+Ian Lynagh <igloo@earth.li>**20100807183337] 
+hash: 0000001090-b4ca1d79949ef49239e995ffe8a8dc68080064a0d91725c131acbec38f24ac17
+[Reinstate "camp show"
+Ian Lynagh <igloo@earth.li>**20100810211241] 
+hash: 0000000864-a586ddbab98e2103ca7db549bc272c4daf759103cee7ca86db436136dd643ebb
+[Fix conflictsWith
+Ian Lynagh <igloo@earth.li>**20100811023749] 
+hash: 0000000531-8a3d52c2ed7b133d7b0b1433155bd6c93a6fdbc6a6377f2836e0da5fe972ccfa
+[Add a test of darcs bug http://bugs.darcs.net/issue1829
+Ian Lynagh <igloo@earth.li>**20100913174225] 
+hash: 0000001694-2f0e3f401f8efdfdf054067ca9c212065adc9824a7d68f879dcd76e637bd1544
+[Add a test
+Ian Lynagh <igloo@earth.li>**20100913200319] 
+hash: 0000001248-4e7943ef0042523f6fc7469da53f4ae3f70e25257a779820bd0d27fecb2f1d5d
+[Add pprShow
+Ian Lynagh <igloo@earth.li>**20100919204214] 
+hash: 0000004169-c55ea69786002fb72e7543284d69f4f822e9dc1cc33e186e204aec1bab74e674
+[Tweak printing
+Ian Lynagh <igloo@earth.li>**20100919214447] 
+hash: 0000002193-34e923f62aaa5b0095eb00738b4924cac11771f4b9a89faa7cd64cbcb3490897
+[Tweak Catch commute rule; conflict_causes_dependency now passes
+Ian Lynagh <igloo@earth.li>**20100919214452] 
+hash: 0000003789-8f1dc18a925179d9f378f232625272b008944141143eba1da8cd25de631d8836
+[Add Ppr (Set a) instance
+Ian Lynagh <igloo@earth.li>**20100919214545] 
+hash: 0000000305-5efec379db6efbc899dedced1b574117788925fd8bfdb4dee7d12888a46d3da4
+[Tweak conflict_causes_dependency test
+Ian Lynagh <igloo@earth.li>**20100919214734] 
+hash: 0000000218-311307278fb1c5bad8f8a749cc0cf902683f30bb22bd88392bf6f92a1604cda2
+[Remove OrAnnihilate from commutePasts
+Ian Lynagh <igloo@earth.li>**20100922203056] 
+hash: 0000001904-cf5e74b73fc66fcac34a19e5fa656547ff5ce4366b8390fba51a0bf078c5f726

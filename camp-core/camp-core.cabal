@@ -1,0 +1,52 @@
+Name: camp-core
+Version: 0.1
+License: BSD3
+License-File: LICENSE
+Copyright: 2008 Ian Lynagh <igloo@earth.li>
+Author: Ian Lynagh <igloo@earth.li>
+Maintainer: Ian Lynagh <igloo@earth.li>
+Synopsis: Camp
+Description:
+        Camp (Commute And Merge Patches)
+Category: Development
+Build-Type: Simple
+Cabal-Version: >=1.2
+
+Library
+    Exposed-Modules:
+        Camp.Content
+        Camp.InRepoFileName
+        Camp.Patch.Anonymous
+        Camp.Patch.Apply
+        Camp.Patch.Catch
+        Camp.Patch.Commute
+        Camp.Patch.ContextedPatch
+        Camp.Patch.Equality
+        Camp.Patch.InputOutput
+        Camp.Patch.Invert
+        Camp.Patch.MegaPatch
+        Camp.Patch.Merge
+        Camp.Patch.Name
+        Camp.Patch.Patch
+        Camp.Patch.Pretty
+        Camp.Patch.Primitive
+        Camp.Patch.RevSequence
+        Camp.Patch.Sequence
+        Camp.Patch.Stream
+        Camp.Types
+        Camp.Utils
+
+    Ghc-Options: -Wall -fwarn-tabs -Werror -O2
+
+    Build-Depends: base, bytestring, containers, directory, filepath,
+                   old-time, pretty
+    Extensions: GADTs, ScopedTypeVariables, KindSignatures,
+                MultiParamTypeClasses, FunctionalDependencies,
+                FlexibleContexts, FlexibleInstances,
+                OverlappingInstances, UndecidableInstances,
+                IncoherentInstances,
+                EmptyDataDecls
+
+    if impl(ghc < 6.9)
+        Extensions: PatternSignatures
+

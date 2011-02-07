@@ -1,0 +1,23 @@
+Name: camp-fragment
+Version: 0.1
+License: BSD3
+License-File: LICENSE
+Copyright: 2009 Ian Lynagh <igloo@earth.li>
+Author: Ian Lynagh <igloo@earth.li>
+Maintainer: Ian Lynagh <igloo@earth.li>
+Synopsis: Camp fragment
+Description:
+        This fragments the patch file of a repository.
+        It is only useful for testing and benchmarking.
+Category: Development
+Build-Type: Simple
+Cabal-Version: >=1.2
+
+Executable camp-fragment
+    Main-Is: Fragment.hs
+
+    Ghc-Options: -Wall -fwarn-tabs -Werror -O2
+
+    Build-Depends: base, bytestring, camp-core, camp-repository,
+                   directory, random
+

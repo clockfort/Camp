@@ -1,0 +1,34 @@
+Name: camp-view
+Version: 0.1
+License: BSD3
+License-File: LICENSE
+Copyright: 2008 Ian Lynagh <igloo@earth.li>
+Author: Ian Lynagh <igloo@earth.li>
+Maintainer: Ian Lynagh <igloo@earth.li>
+Synopsis: Camp View
+Description:
+        Camp (Commute And Merge Patches) repo viewer.
+        XXX This program is just a quick hack. It can probably be
+        written much more efficiently, and much more nicely.
+Category: Development
+Build-Type: Simple
+Cabal-Version: >=1.2
+
+Executable camp-view
+    Main-Is: Camp/View.hs
+    Other-Modules: Camp.View.Deps
+                   Camp.View.Draw.PIL
+                   Camp.View.Draw.Text
+                   Camp.View.Types
+
+    Ghc-Options: -Wall -fwarn-tabs -Werror -O2
+
+    Build-Depends: base, bytestring, camp-core, camp-repository,
+                   containers, directory, filepath, pretty, process
+
+    Extensions: CPP, ForeignFunctionInterface, ScopedTypeVariables,
+                EmptyDataDecls, GADTs
+
+    if impl(ghc < 6.9)
+        Extensions: PatternSignatures
+
