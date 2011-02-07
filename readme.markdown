@@ -1,8 +1,11 @@
 #### Install Instructions
 
 1) Clone my git repository.
+
 2) Run "make" with elevated privs so that it can install.
+
 3) Laugh at how much work you've saved compared to the real way of getting camp.
+
 
 #### Why?
 
